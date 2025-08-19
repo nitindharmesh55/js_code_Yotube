@@ -25,3 +25,47 @@ console.log(typeof booleanisLoggein);
 let secondNumber = 33;
 let stringNumber = String(secondNumber);
 console.log(stringNumber);
+
+
+// Operations start from here!!
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+console.log(value + value);
+console.log(value - value);
+console.log(value * value);
+console.log(value / value);
+console.log(value ** value);
+
+
+// Concat!!
+
+let str1 = "hello";
+let str2 = 'Nitin';
+console.log(str1 + " " + str2);
+
+
+console.log("1" + 2) // "12";
+console.log(1 + "2") //3;
+console.log("1" + 2 + 2);
+
+console.log(+true);
+
+let num1, num2, num3;
+num1 = num2 =  num3 = 2 + 2;
+
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
+
+// Prefix and Postfix increament;
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, Y:${y}`);
+
+let a = 3;
+const b = ++a;
+console.log(`a:${a}, b:${b}`);
