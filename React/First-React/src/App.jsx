@@ -9,12 +9,21 @@
 
 // Keep in mind: Name of the Component Should be UpperCase;
 // and Return HTML
-
+import Header from "./components/Header";
 import Greet from "./components/greet";
+import Love from "./components/Love";
+
+import footer from "./components/footer";
+
 
 function App(){
   return <div>
+    <Header />
     <Greet />
+    <Love />
+
+
+    <footer />
   </div>
 }
 export default App;
