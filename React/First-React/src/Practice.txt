@@ -1,3 +1,15 @@
 // 1. Createa greet Components:
 //create greet.jsx file inside the file create the greet component using function syntax;
 // Register the greet componet in your App,jsz file;
+
+
+
+2. Problems;
+create file called header.jsx and create a header component
+and the header will return h1 and nav;
+with h1 = welcome to my site;
+nav be like  home , contact, about , sell
+
+
+3. create file called Footer.jsx; and create footer componet 
+return p that all rights are reserved@2021
