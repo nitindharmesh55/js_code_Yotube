@@ -12,8 +12,8 @@
 import Header from "./components/Header";
 import Greet from "./components/greet";
 import Love from "./components/Love";
-
-import footer from "./components/footer";
+// import footer from"./components/footer";
+import Footer from "./components/footer";
 
 
 function App(){
@@ -23,7 +23,7 @@ function App(){
     <Love />
 
 
-    <footer />
+    <Footer />
   </div>
 }
 export default App;
