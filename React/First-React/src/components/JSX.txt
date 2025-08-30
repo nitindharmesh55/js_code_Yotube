@@ -1,0 +1,2 @@
+JSX: Allows use to write HTML in React; it make easier to write and add HTML in React
+JSX: Javascript  XML like we said it make easy to write html in react but this html code will complie javascipt code;
