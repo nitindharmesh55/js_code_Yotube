@@ -14,6 +14,7 @@ import Greet from "./components/greet";
 import Love from "./components/Love";
 // import footer from"./components/footer";
 import Footer from "./components/footer";
+import MainContent from "./components/MainContent";
 
 
 function App(){
@@ -21,6 +22,7 @@ function App(){
     <Header />
     <Greet />
     <Love />
+    <MainContent />
 
 
     <Footer />
