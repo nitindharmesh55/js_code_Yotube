@@ -1,2 +1,18 @@
 JSX: Allows use to write HTML in React; it make easier to write and add HTML in React
 JSX: Javascript  XML like we said it make easy to write html in react but this html code will complie javascipt code;
+
+
+from one componet You can't return multiple parent elements;
+
+1. have to use className not class; 
+2. tag must be class;
+3. for for lable will be HtmlFor
+4. 
+
+Time:40:37
+
+{Expressions in JSX}:
+With jsx we can write expression inside curly braces.
+Expressions can be react Variable or Properrty or any valid Javascipt expresion;
+jsx  will execute the expresion and return the result;
+

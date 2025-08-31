@@ -13,3 +13,16 @@ nav be like  home , contact, about , sell
 
 3. create file called Footer.jsx; and create footer componet 
 return p that all rights are reserved@2021
+
+
+
+4. Create a greeting file and components;
+and retrun Div and it has h1 with name and p with current date();
+
+
+5. Create ProductInfo file and return Div
+and create an object outside the compnet and use it's values 
+name:"laptop"
+price:$1000,
+avalibilty:"in Stock";
+

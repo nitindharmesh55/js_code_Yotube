@@ -1,5 +1,11 @@
+const Name = "Nitin";
+const CurrentTime = new Date();
 const Greet = ()=>{
-    return <h1>Hello Master i'm Lili</h1>
+    return <div>
+        <h1>NitinDharmeh is king</h1>
+        <h1>{Name}</h1>
+        <p>{CurrentTime.toDateString()}</p>
+    </div>
 }
 
 export default Greet;

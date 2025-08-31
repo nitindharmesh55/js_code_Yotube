@@ -15,6 +15,8 @@ import Love from "./components/Love";
 // import footer from"./components/footer";
 import Footer from "./components/footer";
 import MainContent from "./components/MainContent";
+import Welcome from "./components/welcome";
+import Expression from "./components/Expression";
 
 
 function App(){
@@ -23,6 +25,8 @@ function App(){
     <Greet />
     <Love />
     <MainContent />
+    <Welcome/>
+    <Expression/>
 
 
     <Footer />
