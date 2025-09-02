@@ -26,3 +26,6 @@ name:"laptop"
 price:$1000,
 avalibilty:"in Stock";
 
+
+6. create a userList wiht name, id , and age and render each values using the map 
+

@@ -17,6 +17,11 @@ import Footer from "./components/footer";
 import MainContent from "./components/MainContent";
 import Welcome from "./components/welcome";
 import Expression from "./components/Expression";
+import ProductInfo from "./components/ProductInfo";
+import List from "./components/List";
+import UserList from "./components/UserList";
+import ProductList from "./components/ProductList";
+import Prop from "./components/Prop";
 
 
 function App(){
@@ -27,8 +32,19 @@ function App(){
     <MainContent />
     <Welcome/>
     <Expression/>
+    <ProductInfo/>
+   
+
+    <List/>
+
+    <UserList />
+
+    <ProductList/>
+     <Prop/>
 
 
+   <p>=============================================================================================================</p>
+    
     <Footer />
   </div>
 }

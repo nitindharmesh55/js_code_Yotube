@@ -16,3 +16,16 @@ With jsx we can write expression inside curly braces.
 Expressions can be react Variable or Properrty or any valid Javascipt expresion;
 jsx  will execute the expresion and return the result;
 
+
+
+
+{JSX: List}
+You will render List with sometype of Loop the javascipt map() array method is genreally the prefered method;
+
+
+
+{JSX: Props}
+Props/Properrty it's a argument that we pass into the react Components;
+it allows to pass data from parent component to child componet;
+
+TimeStap: 1:05:24;
