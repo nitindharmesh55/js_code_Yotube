@@ -29,3 +29,8 @@ avalibilty:"in Stock";
 
 6. create a userList wiht name, id , and age and render each values using the map 
 
+
+7. Create a weather component where you take temparature as prop and return the h1 like according to the temparature;
+if  temp is below 15 then it's called outSided and 
+temp is 15 and between 25 it's good out side and 
+temp is 25 mroe than this it's hot outside;

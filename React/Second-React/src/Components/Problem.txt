@@ -1,0 +1,10 @@
+1. create a style card and functional componets 
+. add set backGround color : light blue 
+. add color to dark blue 
+. add padding 20px and borderradius 10px;
+
+2. create Prodilegrid and define style grid for this problems;
+. add background Light gray;
+.padding 10px 
+.border radius 8px ;
+.text color to be black;

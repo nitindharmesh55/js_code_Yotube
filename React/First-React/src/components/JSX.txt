@@ -29,3 +29,9 @@ Props/Properrty it's a argument that we pass into the react Components;
 it allows to pass data from parent component to child componet;
 
 TimeStap: 1:05:24;
+
+
+{JSX: Conditional Rendering}
+
+    Conditional Rendering Allows to dynamically  display different UI Componet or content based on specific conditions;
+
