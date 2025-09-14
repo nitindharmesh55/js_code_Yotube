@@ -1,42 +1,64 @@
-#root {
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+   font-family: "Edu QLD Beginner", cursive;
+}
+*{
+  margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  margin: 0px auto;
+  height: 72px;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: red;
+  color: white;
+  font-weight: 500;
+  height: 32px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.hero{
+  display: flex;
+  max-width: 1280px;
+  margin: 0px auto;
+  align-items: center;
+  height: calc(100vh - 72px);
+  justify-content: space-between;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-content p{
+font-size: 22px;
+font-weight: 600;
+width: 600px;
+margin: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.hero-img img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
-
-.card {
-  padding: 2em;
+.hero h1{
+  font-size: 108px;
+  font-weight: 600px;
+  color: gray;
+  line-height: 102px;
 }
-
-.read-the-docs {
-  color: #888;
+.hero-btn{
+  display: flex;
+  gap: 48px;
+}
+.hero-btn .second{
+  background: transparent;
+  border: 2px solid black;
+  color:gray;
 }
