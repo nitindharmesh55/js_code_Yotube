@@ -1,0 +1,114 @@
+.Main{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative;
+}
+.Main .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #585858;
+}
+.Main .nav img{
+    width: 40px;
+    border-radius: 50%;
+}
+.main-container{
+    max-width: 700px;
+    margin:auto;
+}
+.Main .greet{
+    margin: 50px 0px;
+    font-size: 25px;
+    color: #C4C7C5;
+    font-weight: 500;
+    padding: 20px;
+}
+.Main .greet span{
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.Main .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+    gap:50px;
+    margin: 20px;
+    
+    padding:20px;
+}
+
+.Main .card img{
+    width: 35px;
+    padding: 5px;
+    border-radius: 20px;
+    background: white;
+    position: relative;
+    
+    bottom: -10px;
+    right: -80px;
+     
+
+}
+.Main .card p{
+    font-size: 17px;
+    color: #585858;
+}
+
+.Main .card{
+    width: 160px;
+    padding: 15px;
+    background: #f0f4f9;
+    gap: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Main .card:hover{
+    background: #f0f0f0;
+}
+.main-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 100px;
+    margin: auto;
+    padding: 0px 20px;
+    max-width: 600px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+    background: #f0f4f9;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.search-box img{
+    width: 24px;
+    cursor: pointer;
+}
+.search-box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.bottom-info{
+    margin: 15px auto;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 300;
+}
+/* Time stap: 43:29 */
