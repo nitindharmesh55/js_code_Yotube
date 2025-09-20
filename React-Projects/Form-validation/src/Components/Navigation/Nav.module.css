@@ -1,0 +1,19 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+    height: 72px;
+}
+.navigation > .logo img{
+    width: 50px;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+.navigation ul a {
+    text-decoration: none;
+    color: black;
+}
