@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#ccc;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0px auto;
+}
+.applyBox{
+    max-width: 600px;
+    margin: 0px auto;
+    background: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 55px;
+    padding: 20px;
+}
+
+.formObject{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* background-color: red; */
+    gap: 10px;
+    margin-top: 50px;
+}
+.formController{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+
+label{
+    font-size: 15px;
+
+}
+input{
+    padding:6px 10px;
+    border-radius: 4px;
+}
+.add{
+    display:grid;
+    grid-column: 1 / span 2;
+}
+input:focus{
+    outline-color: red;
+}
+select{
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+#up{
+    padding: 6px 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top:30px;
+}
+.btn button{
+    background-color: rgb(219, 64, 64);
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn button:hover{
+    background: gray;
+    color: white;
+}
