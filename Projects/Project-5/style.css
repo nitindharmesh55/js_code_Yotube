@@ -295,9 +295,14 @@ footer{
 }
 .fill ul{
     list-style: none;
+    cursor:pointer;
+}
+.fill ul li{
+    cursor: pointer;
 }
 .fill hr{
     margin-bottom: 20px;
+    
 }
 
 .footer{
