@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+
+}
+header{
+    width:100%;
+    height: 40px;
+    padding:10px;
+    position: fixed;
+    top:0;
+    left:0;
+    background: #270082;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+.logo p{
+    color:white;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 100%;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    
+}
+.links a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+.links a:hover{
+    font-size: 15px;
+}
+
+/* Hero section start from here */
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heroClass{
+    background: url("image/Frame\ 1.png");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    
+
+}
+.heroText{
+    width: 841px;
+    height: 243px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 42px;
+    margin: 0px auto;
+    /* text-align: center; */
+
+}
+.heroText h1{
+    width:298px;
+    color:white;
+    height:84px;
+    font-weight: 700;
+    line-height: 100%;
+    font-size: 72px;
+    
+}
+.heroText .musicTime{
+    width:100%;
+    color: white;
+    height: 28px;
+    font-weight: 400;
+    font-size:23px;
+    line-height: 100%;
+    text-align: center;
+}
+.heroText .MusicLime{
+    width: 100%;
+    height:67px;
+    color: white;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.sec{
+    background: #270082;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+
+    /* border: 1px solid white; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:32px;
+/* margin-top: -100px; */
+    color:white;
+}
+.music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.music img{
+    width:50px;
+    height: 50px;
+}
+.music h2{
+    font-size: 30px;
+    line-height: 100%;
+    color:white;
+    font-weight: 700;
+}
+
+.center p{
+    width: 80%;
+    font-size: 15px;
+}
+
+.center button{
+    padding:10px 15px;
+    background:#DC0000;
+    border:none;
+    color:white;
+}
+.last{
+    text-align: center;
+    font-size: 8px;
+    
+}
+ .sec::after{
+    content: "";
+    position:absolute;
+    background: url("image/Group\ 2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:915px;
+    height: 664px;
+
+    top:75%;
+    /* bottom:-200px; */
+
+} 
+.macbook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    /* height: 150vh; */
+    background: white;
+    flex-direction: column;
+    margin-bottom: 200px;
+    padding:50px 0;
+
+    /* z-index: 200; */
+}
+.flexItem{
+    margin: 0px auto;
+    
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.macConentent{
+    /* text-align: center; */
+    margin-bottom: 50px;
+}
+.macConentent p{
+    width: 70%;
+    margin: 20px auto;
+}
+.macConentent button{
+    padding:10px 15px;
+    background: #270082;
+    color:white;
+    border:none;
+}
+.video{
+    background: url("image/Frame\ 4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.gift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+.giftItem{
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding:20px;
+    width: 100%;
+    gap:32px;
+    /* height: 400px; */
+}
+.giftContentent{
+    width: 576px;
+    height: 302px;
+}
+.giftContentent p {
+    width:576px;
+    height:116px;
+}
+.giftContentent span{
+    width: 326px;
+}
+.giftContentent button{
+    background: #270082;
+    color: white;
+    padding: 10px 15px;
+    border:none;
+    margin-top: 20px;
+}
+.giftLogo{
+    width:468px;
+    height:310px;
+}
+.giftLogo img{
+    width:100%;
+    height:100%;
+}
+
+footer{
+    background: #270082;
+    width:100%;
+    margin: auto 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fill{
+    width: 987px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:42px;
+    color: white;
+    font-size: 15px;
+}
+.fill ul{
+    list-style: none;
+}
+.fill hr{
+    margin-bottom: 20px;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    color:white;
+    background: #4204d3;
+    padding: 5px;
+}
