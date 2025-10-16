@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+      font-family: "Inter", sans-serif;
+        scroll-behavior: smooth;
+}
+
+/* 1rem - 16px */
+
+
+body{
+    font-size: 1.4rem;
+}
+
+header{
+  position: sticky;
+  top:0;
+  background: white; 
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1rem;
+    max-width:1200px;
+    margin:0px auto;
+}
+ul{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap:2rem;
+}
+nav ul li{
+    font-size: 1.8rem;
+}
+nav ul li:hover{
+    border-bottom: 1px solid #ffee00;
+}
+
+nav i {
+    font-size: 2.5rem;
+}
+
+
+/* Hero Section */
+main{
+    max-width:1200px;
+    margin: 0px auto;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroContent h1{
+     font-size: 6rem;
+     width: 324px;
+     height: 126px;
+     line-height: 1.1;
+     margin-bottom: 10px;
+}
+.heroContent h4{
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+.heroImage{
+    width:556px;
+    height:357px;
+}
+.heroImage img{
+    border-radius: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* hero */
+
+.h-card{
+    display: flex;
+    margin: 2rem 1rem;
+    border: 1px solid rgb(221, 221,221) ;
+    box-shadow: 0px 5px 4px rgb(160, 160, 160);
+    align-items: center;
+    border-radius: 0.5rem;
+    padding:1rem;
+    overflow: hidden;
+}
+.h-card img{
+    width: 433px;
+    height: 243px;
+}
+
+.card-content{
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+
+}
+.status button{
+    all: unset;
+    font-weight: 600;
+}
+.status button:hover{
+    border-bottom: 1px solid gray;
+}
+
+
+.v-card{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 320px;    
+    border: 1px solid rgb(221, 221,221) ;
+    box-shadow: 0px 5px 4px rgb(160, 160, 160);
+    align-items: center;
+    border-radius: 0.5rem;
+    /* padding:1rem; */
+    overflow: hidden;
+}
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.card_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.v-card img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1200px;
+    margin: 0px auto;
+
+}
+footer ul{
+    display: flex;
+    gap: 2rem;
+}
+footer ul li{
+    font-size: 1.8rem;
+}
+
+/* pot_page */
+
+.post h1{
+    font-size: 3rem;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner_img{
+    width: 788px;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.banner_img img{
+width:100%;
+height: 100%;
+}
+.about_author{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+
+.post hr{
+    margin: 3rem 0;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
