@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+.container{
+    background:url("header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.love{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+}
+.ageContent{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 2rem;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hide{
+    display: none !important;
+}
+
+.settingCog{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    display: flex;
+    gap: 5px;
+}
+
+
+.fa-gear{
+    transition: all 0.2s ease-in-out;
+}
+ .fa-gear:active{
+    transform: rotate(90deg);
+ }
+ .Date{
+    display: flex;
+    gap: 5px;
+ }
+
+ .Date input{
+    padding:1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 900;
+
+ }
+ .Date button{
+    padding:1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 900;
+ }
