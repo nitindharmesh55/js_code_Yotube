@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{  font-family: "Poppins", sans-serif;
+    background:rgb(224, 217, 217);
+
+}
+.productContainer{
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ align-items: center;
+}
+
+.product_card {
+  width: 90%;           /* take 90% of container */
+  max-width: 600px;     /* never exceed 600px */
+  min-width: 280px;     /* small mobile screens */
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  /* gap: 32px; */
+  box-shadow: 0px 7px 6px rgba(0,0,0,0.3); /* slightly lighter shadow */
+}
+.imageContainer{
+    border-right: 1px solid black;
+    flex: 1;
+    padding:10px 30px;
+}
+.imageContainer img {
+    width: 100%;
+    max-height: 200px;   /* keep images similar size */
+    object-fit: contain;
+}
+
+.content{
+     display: flex;
+    flex-direction: column;
+    flex: 5;
+    padding: 10px 20px;
+   
+}
+
+/* Product stylle */
+
+.content h2{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.content p{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.price{
+    font-size: 20px;
+  background-color:rgb(224, 103, 103);
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-self: end;
+}
+
+.input_container{
+    display: flex;
+    justify-content: flex-end;
+    width:600px;
+    margin:  10px auto;
+
+}
+.input_container input{
+    width: 100%;
+    margin: auto;;
+    padding-left:60px;
+    height: 35px;
+    border: 2px solid brown;
+    /* margin: 10px auto; */
+}
+.inputIcon{
+    position: relative;
+    left: 35px;
+    margin-left: -35px;
+    display: grid;
+    place-items: center;
+}
+
+@media (max-width:630px){
+    .product_card{
+        width:90%;
+        flex-direction: column;
+    }
+    .price{
+        align-self: stretch;
+    }
+
+    .input_container{
+    width:90%;
+    margin: 10px auto;
+}
+}
+
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px , 1fr));
+    
+}
